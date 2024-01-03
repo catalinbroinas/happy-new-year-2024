@@ -1,0 +1,32 @@
+// Text
+@mixin title
+{
+    font-family: $font-title;
+    font-weight: 800;
+    color: $secondary-1;
+}
+@mixin sub-title
+{
+    font-family: $font-title;
+    font-weight: bolder;
+    color: $secondary-1;
+}
+@mixin text
+{
+    font-family: $font-text;
+    font-weight: normal;
+    color: $secondary-1;
+}
+
+// Animation
+@mixin nav-item-border
+{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0.35rem;
+    left: 50%;
+    bottom: 0;
+    background-color: $secondary-3;
+    transition: all ease-in-out .2s;
+}
