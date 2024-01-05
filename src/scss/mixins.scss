@@ -3,13 +3,13 @@
 {
     font-family: $font-title;
     font-weight: 800;
-    color: $secondary-1;
+    color: $secondary-3;
 }
 @mixin sub-title
 {
     font-family: $font-title;
     font-weight: bolder;
-    color: $secondary-1;
+    color: $secondary-2;
 }
 @mixin text
 {
