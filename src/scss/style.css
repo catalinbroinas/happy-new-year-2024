@@ -16438,6 +16438,7 @@ fieldset:disabled .btn-group-vertical > .btn {
   max-width: 100vw;
   height: 20rem;
   overflow: hidden;
+  margin: 0;
 }
 .hero .hero-background {
   position: absolute;
@@ -16460,11 +16461,33 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-size: 3rem;
 }
 
-main {
+.main-objectives {
   background-color: #FBFBFB;
+  padding: 3rem 10%;
+  margin: 0;
 }
 
 .custom-badge {
   color: #ffffff;
   background-color: #304FFE;
+}
+
+@media only screen and (max-width: 1910px) {
+  .main-objectives {
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 1590px) {
+  .main-objectives {
+    padding: 2rem;
+  }
+  .intro .title {
+    font-size: 3.5rem;
+  }
+  .hero {
+    height: 13rem;
+  }
+  .hero .title {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
