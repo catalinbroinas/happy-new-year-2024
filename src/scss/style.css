@@ -16487,6 +16487,16 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-size: 2rem;
 }
 
+.everything {
+  background-color: #304FFE;
+  color: #FBFBFB;
+}
+.everything .title {
+  color: inherit;
+  font-size: 3rem;
+  font-style: italic;
+}
+
 .custom-badge {
   color: #ffffff;
   background-color: #304FFE;
