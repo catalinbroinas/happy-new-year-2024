@@ -16497,6 +16497,10 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-style: italic;
 }
 
+footer {
+  background-color: #E3F2FD;
+}
+
 .custom-badge {
   color: #ffffff;
   background-color: #304FFE;
