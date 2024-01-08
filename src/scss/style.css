@@ -16428,7 +16428,7 @@ fieldset:disabled .btn-group-vertical > .btn {
   background-position: center;
 }
 .intro .title {
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 5rem;
 }
@@ -16478,7 +16478,7 @@ fieldset:disabled .btn-group-vertical > .btn {
 }
 
 .life {
-  background-color: #FBFBFB;
+  background-color: #E3F2FD;
 }
 .life .sub-title {
   font-size: 2.5rem;
@@ -16489,7 +16489,7 @@ fieldset:disabled .btn-group-vertical > .btn {
 
 .everything {
   background-color: #304FFE;
-  color: #FBFBFB;
+  color: #ffffff;
 }
 .everything .title {
   color: inherit;

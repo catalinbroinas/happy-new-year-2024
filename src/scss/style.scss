@@ -136,7 +136,7 @@
    background-position: center;
    .title
    {
-      color: white;
+      color: $secondary-4;
       text-transform: uppercase;
       font-size: 5rem;
    }
@@ -163,7 +163,7 @@
       left: 50%; 
       transform: translate(-50%, -50%); 
       text-align: center; 
-      color: #ffffff; 
+      color: $secondary-4; 
       z-index: 1;
    }
    .title
@@ -192,7 +192,7 @@
 }
 .life
 {
-   background-color: $primary-2;
+   background-color: $primary-1;
    .sub-title
    {
       font-size: 2.5rem;
@@ -205,7 +205,7 @@
 .everything
 {
    background-color: $primary-3;
-   color: $primary-2;
+   color: $secondary-4;
    .title
    {
       color: inherit;
@@ -221,8 +221,8 @@ footer
 // Components
 .custom-badge
 {
-   color: #ffffff;
-   background-color: #304FFE;
+   color: $secondary-4;
+   background-color: $primary-3;
 }
 
 // Devices HD+
