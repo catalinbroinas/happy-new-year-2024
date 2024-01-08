@@ -16477,6 +16477,16 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-size: 2rem;
 }
 
+.life {
+  background-color: #FBFBFB;
+}
+.life .sub-title {
+  font-size: 2.5rem;
+}
+.life .title {
+  font-size: 2rem;
+}
+
 .custom-badge {
   color: #ffffff;
   background-color: #304FFE;
