@@ -16433,6 +16433,53 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-size: 5rem;
 }
 
+.main-intro {
+  max-width: 100vw;
+  height: 50vh;
+  background-color: red;
+  color: #ffffff;
+}
+.main-intro .main-intro-career,
+.main-intro .main-intro-sport,
+.main-intro .main-intro-english,
+.main-intro .main-intro-book {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-intro .main-intro-career {
+  background-image: url("../../img/web-dev-obj.jpg");
+}
+.main-intro .main-intro-sport {
+  background-image: url("../../img/sport-obj.jpg");
+}
+.main-intro .main-intro-english {
+  background-image: url("../../img/english-obj.jpg");
+}
+.main-intro .main-intro-book {
+  background-image: url("../../img/books-obj.jpg");
+  background-position: center top;
+}
+.main-intro .main-intro-mask {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.main-intro .title,
+.main-intro .sub-title {
+  color: inherit;
+}
+.main-intro .title {
+  font-size: 2.5rem;
+}
+.main-intro .sub-title {
+  font-size: 2rem;
+}
+.main-intro .custom-badge {
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .hero {
   position: relative;
   max-width: 100vw;
