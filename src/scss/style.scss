@@ -230,6 +230,7 @@
       font-size: 3rem;
    }
 }
+
 .main-objectives
 {
    background-color: $primary-2;
@@ -271,6 +272,18 @@
       font-style: italic;
    }
 }
+
+.career
+{
+   .sub-title
+   {
+      font-size: 2.5rem;
+   }
+   .title
+   {
+      font-size: 2rem;
+   }
+}
 footer
 {
    background-color: $primary-1;
@@ -281,6 +294,11 @@ footer
 {
    color: $secondary-4;
    background-color: $primary-3;
+}
+.hr-heading
+{
+   border: 0.2rem $secondary-2 solid;
+   opacity: 1;
 }
 
 // Devices HD+
