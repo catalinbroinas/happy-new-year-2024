@@ -145,7 +145,6 @@
 {
    max-width: 100vw;
    height: 50vh;
-   // background-color: red;
    color: $secondary-4;
    .main-intro-career,
    .main-intro-sport,
@@ -330,5 +329,13 @@ footer
       {
          font-size: 2rem;
       }
+   }
+}
+// Small devices
+@media only screen and (max-width: 991px)
+{
+   .main-intro
+   {
+      height: auto;
    }
 }
