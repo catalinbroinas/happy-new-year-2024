@@ -16576,6 +16576,12 @@ fieldset:disabled .btn-group-vertical > .btn {
   color: #332D2D;
 }
 
+.book-content .title {
+  font-size: 1rem;
+  text-align: left;
+  color: #1A237E;
+}
+
 footer {
   background-color: #E3F2FD;
 }
