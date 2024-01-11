@@ -16596,9 +16596,18 @@ footer {
   opacity: 1;
 }
 
+.icon-english {
+  width: 15rem;
+  height: auto;
+}
+
 @media only screen and (max-width: 1910px) {
   .main-objectives {
     padding: 3rem;
+  }
+  .icon-english {
+    width: 13rem;
+    height: auto;
   }
 }
 @media only screen and (max-width: 1590px) {
@@ -16614,9 +16623,23 @@ footer {
   .hero .title {
     font-size: 2rem;
   }
+  .icon-english {
+    width: 12rem;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1355px) {
+  .icon-english {
+    width: 10rem;
+    height: auto;
+  }
 }
 @media only screen and (max-width: 991px) {
   .main-intro {
+    height: auto;
+  }
+  .icon-english {
+    width: 10rem;
     height: auto;
   }
 }/*# sourceMappingURL=style.css.map */

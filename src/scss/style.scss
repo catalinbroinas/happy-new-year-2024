@@ -326,6 +326,11 @@ footer
    width: 5rem;
    opacity: 1.0;
 }
+.icon-english
+{
+   width: 15rem;
+   height: auto;
+}
 
 // Devices HD+
 @media only screen and (max-width: 1910px)
@@ -334,8 +339,13 @@ footer
    {
       padding: 3rem;
    }
+   .icon-english
+   {
+      width: 13rem;
+      height: auto;
+   }
 }
-// Devices HD+
+// Devices HD
 @media only screen and (max-width: 1590px)
 {
    .main-objectives
@@ -357,12 +367,31 @@ footer
          font-size: 2rem;
       }
    }
+   .icon-english
+   {
+      width: 12rem;
+      height: auto;
+   }
 }
-// Small devices
+// Extra Large devices
+@media only screen and (max-width: 1355px)
+{
+   .icon-english
+   {
+      width: 10rem;
+      height: auto;
+   }
+}
+// Large devices
 @media only screen and (max-width: 991px)
 {
    .main-intro
    {
+      height: auto;
+   }
+   .icon-english
+   {
+      width: 10rem;
       height: auto;
    }
 }
