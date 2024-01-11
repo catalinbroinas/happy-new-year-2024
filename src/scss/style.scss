@@ -272,7 +272,10 @@
    }
 }
 
-.career
+.career,
+.sport,
+.english,
+.book
 {
    .sub-title
    {
@@ -283,7 +286,11 @@
       font-size: 2rem;
    }
 }
-.career-content
+
+.career-content,
+.sport-content,
+.english-content,
+.book-content
 {
    background-color: $primary-1;
    .card-header

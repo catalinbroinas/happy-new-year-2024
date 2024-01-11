@@ -16543,20 +16543,35 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-style: italic;
 }
 
-.career .sub-title {
+.career .sub-title,
+.sport .sub-title,
+.english .sub-title,
+.book .sub-title {
   font-size: 2.5rem;
 }
-.career .title {
+.career .title,
+.sport .title,
+.english .title,
+.book .title {
   font-size: 2rem;
 }
 
-.career-content {
+.career-content,
+.sport-content,
+.english-content,
+.book-content {
   background-color: #E3F2FD;
 }
-.career-content .card-header {
+.career-content .card-header,
+.sport-content .card-header,
+.english-content .card-header,
+.book-content .card-header {
   background-color: #FBFBFB;
 }
-.career-content .card-title {
+.career-content .card-title,
+.sport-content .card-title,
+.english-content .card-title,
+.book-content .card-title {
   font-size: 1.5rem;
   color: #332D2D;
 }
