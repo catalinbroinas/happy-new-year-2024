@@ -16550,6 +16550,17 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-size: 2rem;
 }
 
+.career-content {
+  background-color: #E3F2FD;
+}
+.career-content .card-header {
+  background-color: #FBFBFB;
+}
+.career-content .card-title {
+  font-size: 1.5rem;
+  color: #332D2D;
+}
+
 footer {
   background-color: #E3F2FD;
 }
@@ -16561,6 +16572,12 @@ footer {
 
 .hr-heading {
   border: 0.2rem #1A237E solid;
+  opacity: 1;
+}
+
+.hr-title {
+  border: 0.35rem #304FFE solid;
+  width: 5rem;
   opacity: 1;
 }
 

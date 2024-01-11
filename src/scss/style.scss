@@ -283,6 +283,20 @@
       font-size: 2rem;
    }
 }
+.career-content
+{
+   background-color: $primary-1;
+   .card-header
+   {
+      background-color: $primary-2;
+   }
+   .card-title
+   {
+      font-size: 1.5rem;
+      color: $secondary-1;
+   }
+}
+
 footer
 {
    background-color: $primary-1;
@@ -298,6 +312,12 @@ footer
 {
    border: 0.2rem $secondary-2 solid;
    opacity: 1;
+}
+.hr-title
+{
+   border: 0.35rem $primary-3 solid;
+   width: 5rem;
+   opacity: 1.0;
 }
 
 // Devices HD+
