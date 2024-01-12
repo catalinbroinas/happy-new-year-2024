@@ -354,7 +354,8 @@
 }
 .appearance,
 .rest,
-.nutrition
+.nutrition,
+.relaxation
 {
    z-index: -1;
    .title
@@ -374,7 +375,8 @@
 {
    background-color: $primary-2;
 }
-.rest
+.rest,
+.relaxation
 {
    background-color: $primary-1;
 }

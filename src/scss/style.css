@@ -16619,19 +16619,22 @@ fieldset:disabled .btn-group-vertical > .btn {
 
 .appearance,
 .rest,
-.nutrition {
+.nutrition,
+.relaxation {
   z-index: -1;
 }
 .appearance .title,
 .rest .title,
-.nutrition .title {
+.nutrition .title,
+.relaxation .title {
   text-align: left;
   font-size: 2.5rem;
   color: #1A237E;
 }
 .appearance .text,
 .rest .text,
-.nutrition .text {
+.nutrition .text,
+.relaxation .text {
   font-size: 1.25rem;
   line-height: 2rem;
 }
@@ -16641,7 +16644,8 @@ fieldset:disabled .btn-group-vertical > .btn {
   background-color: #FBFBFB;
 }
 
-.rest {
+.rest,
+.relaxation {
   background-color: #E3F2FD;
 }
 
