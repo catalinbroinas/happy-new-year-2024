@@ -16648,4 +16648,21 @@ footer {
     width: 10rem;
     height: auto;
   }
+}
+@media only screen and (max-width: 575px) {
+  .career .sub-title,
+  .sport .sub-title,
+  .english .sub-title,
+  .book .sub-title {
+    font-size: 2rem;
+  }
+  .career .title,
+  .sport .title,
+  .english .title,
+  .book .title {
+    font-size: 1.5rem;
+  }
+  .book .title {
+    white-space: nowrap;
+  }
 }/*# sourceMappingURL=style.css.map */

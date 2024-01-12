@@ -405,3 +405,28 @@ footer
       height: auto;
    }
 }
+// Extra small devices
+@media only screen and (max-width: 575px)
+{
+   .career,
+   .sport,
+   .english,
+   .book
+   {
+      .sub-title
+      {
+         font-size: 2rem;
+      }
+      .title
+      {
+         font-size: 1.5rem;
+      }
+   }
+   .book
+   {
+      .title
+      {
+         white-space: nowrap;
+      }
+   }
+}
