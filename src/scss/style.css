@@ -16618,22 +16618,26 @@ fieldset:disabled .btn-group-vertical > .btn {
 }
 
 .appearance,
-.rest {
+.rest,
+.nutrition {
   z-index: -1;
 }
 .appearance .title,
-.rest .title {
+.rest .title,
+.nutrition .title {
   text-align: left;
   font-size: 2.5rem;
   color: #1A237E;
 }
 .appearance .text,
-.rest .text {
+.rest .text,
+.nutrition .text {
   font-size: 1.25rem;
   line-height: 2rem;
 }
 
-.appearance {
+.appearance,
+.nutrition {
   background-color: #FBFBFB;
 }
 

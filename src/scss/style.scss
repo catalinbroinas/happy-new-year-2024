@@ -353,7 +353,8 @@
    z-index: -1;
 }
 .appearance,
-.rest
+.rest,
+.nutrition
 {
    z-index: -1;
    .title
@@ -368,7 +369,8 @@
       line-height: 2rem;
    }
 }
-.appearance
+.appearance,
+.nutrition
 {
    background-color: $primary-2;
 }
