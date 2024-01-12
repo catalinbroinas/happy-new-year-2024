@@ -346,6 +346,28 @@
    }
 }
 
+.habits-content
+{
+   display: flex;
+   z-index: -1;
+}
+.appearance
+{
+   z-index: -1;
+   background-color: $primary-2;
+   .title
+   {
+      text-align: left;
+      font-size: 2.5rem;
+      color: $secondary-2;
+   }
+   .text
+   {
+      font-size: 1.25rem;
+      line-height: 2rem;
+   }
+}
+
 footer
 {
    background-color: $primary-1;

@@ -16611,6 +16611,25 @@ fieldset:disabled .btn-group-vertical > .btn {
   color: #1A237E;
 }
 
+.habits-content {
+  display: flex;
+  z-index: -1;
+}
+
+.appearance {
+  z-index: -1;
+  background-color: #FBFBFB;
+}
+.appearance .title {
+  text-align: left;
+  font-size: 2.5rem;
+  color: #1A237E;
+}
+.appearance .text {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
 footer {
   background-color: #E3F2FD;
 }
