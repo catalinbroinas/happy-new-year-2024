@@ -349,12 +349,13 @@
 .habits-content
 {
    display: flex;
+   flex-flow: column wrap;
    z-index: -1;
 }
-.appearance
+.appearance,
+.rest
 {
    z-index: -1;
-   background-color: $primary-2;
    .title
    {
       text-align: left;
@@ -366,6 +367,14 @@
       font-size: 1.25rem;
       line-height: 2rem;
    }
+}
+.appearance
+{
+   background-color: $primary-2;
+}
+.rest
+{
+   background-color: $primary-1;
 }
 
 footer

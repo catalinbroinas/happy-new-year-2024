@@ -16613,21 +16613,32 @@ fieldset:disabled .btn-group-vertical > .btn {
 
 .habits-content {
   display: flex;
+  flex-flow: column wrap;
   z-index: -1;
 }
 
-.appearance {
+.appearance,
+.rest {
   z-index: -1;
-  background-color: #FBFBFB;
 }
-.appearance .title {
+.appearance .title,
+.rest .title {
   text-align: left;
   font-size: 2.5rem;
   color: #1A237E;
 }
-.appearance .text {
+.appearance .text,
+.rest .text {
   font-size: 1.25rem;
   line-height: 2rem;
+}
+
+.appearance {
+  background-color: #FBFBFB;
+}
+
+.rest {
+  background-color: #E3F2FD;
 }
 
 footer {
