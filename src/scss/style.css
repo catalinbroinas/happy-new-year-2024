@@ -16650,6 +16650,9 @@ footer {
   }
 }
 @media only screen and (max-width: 575px) {
+  .navbar .navbar-logo {
+    display: none;
+  }
   .career .sub-title,
   .sport .sub-title,
   .english .sub-title,
