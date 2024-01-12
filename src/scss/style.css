@@ -16620,13 +16620,15 @@ fieldset:disabled .btn-group-vertical > .btn {
 .appearance,
 .rest,
 .nutrition,
-.relaxation {
+.relaxation,
+.Faith {
   z-index: -1;
 }
 .appearance .title,
 .rest .title,
 .nutrition .title,
-.relaxation .title {
+.relaxation .title,
+.Faith .title {
   text-align: left;
   font-size: 2.5rem;
   color: #1A237E;
@@ -16634,13 +16636,15 @@ fieldset:disabled .btn-group-vertical > .btn {
 .appearance .text,
 .rest .text,
 .nutrition .text,
-.relaxation .text {
+.relaxation .text,
+.Faith .text {
   font-size: 1.25rem;
   line-height: 2rem;
 }
 
 .appearance,
-.nutrition {
+.nutrition,
+.Faith {
   background-color: #FBFBFB;
 }
 

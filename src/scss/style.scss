@@ -355,7 +355,8 @@
 .appearance,
 .rest,
 .nutrition,
-.relaxation
+.relaxation,
+.Faith
 {
    z-index: -1;
    .title
@@ -371,7 +372,8 @@
    }
 }
 .appearance,
-.nutrition
+.nutrition,
+.Faith
 {
    background-color: $primary-2;
 }
