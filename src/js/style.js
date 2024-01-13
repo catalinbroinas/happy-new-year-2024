@@ -1,4 +1,5 @@
 const scrollButton = document.querySelector('#scroll-button');
+const navbarLinks = document.querySelectorAll('.navbar-link');
 
 window.addEventListener('scroll', () => {
     if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
@@ -13,11 +14,23 @@ scrollButton.addEventListener('click', () => {
 });
 
 function createTimedLink(element, callback, timeout) {
-    setTimeout(function () { callback(element); }, timeout);
+    setTimeout(function () {
+        callback(element);
+    }, timeout);
     return false;
 }
 
 function goToHref(element) {
-    /* Block of code, with no 'return false'. */
+    /* Block code, without 'return false' */
     window.location = element.href;
 }
+
+// Add click event to each link
+function addClickEvent(link) {
+    link.addEventListener('click', function (event) {
+        event.preventDefault(); // Avoid default redirection behavior
+        createTimedLink(link, goToHref, 500);
+    });
+}
+
+navbarLinks.forEach(addClickEvent);
