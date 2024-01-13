@@ -16343,6 +16343,10 @@ fieldset:disabled .btn-group-vertical > .btn {
   background-color: #304FFE;
   transition: all ease-in-out 0.2s;
 }
+.navbar .navbar-brand.active-link::after {
+  width: 100%;
+  left: 0;
+}
 .navbar .navbar-brand:hover::after {
   width: 100%;
   left: 0;
@@ -16389,6 +16393,9 @@ fieldset:disabled .btn-group-vertical > .btn {
   transition: all ease-in-out 0.2s;
   left: 0;
 }
+.navbar .nav-link.active-link::after {
+  width: 100%;
+}
 .navbar .nav-link:hover::after {
   width: 100%;
 }
@@ -16404,6 +16411,9 @@ fieldset:disabled .btn-group-vertical > .btn {
   }
   .navbar .nav-link::after {
     left: 50%;
+  }
+  .navbar .nav-link.active-link::after {
+    left: 0;
   }
   .navbar .nav-link:hover::after {
     left: 0;

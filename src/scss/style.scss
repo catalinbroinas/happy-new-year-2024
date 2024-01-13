@@ -45,6 +45,11 @@
    {
       @include nav-item-border;
    }
+   .navbar-brand.active-link::after
+   {
+      width: 100%;
+      left: 0;
+   }
    .navbar-brand:hover::after
    {
       width: 100%;
@@ -87,6 +92,10 @@
       @include nav-item-border;
       left: 0;
    }
+   .nav-link.active-link::after
+   {
+      width: 100%;
+   }
    .nav-link:hover::after
    {
       width: 100%;
@@ -107,6 +116,10 @@
       .nav-link::after
       {
          left: 50%;
+      }
+      .nav-link.active-link::after
+      {
+         left: 0;
       }
       .nav-link:hover::after
       {
