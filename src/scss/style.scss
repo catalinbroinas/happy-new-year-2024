@@ -423,18 +423,16 @@ footer
    width: 15rem;
    height: auto;
 }
-.btn-to-top
+.btn-scroll
 {
    position: fixed;
    bottom: 5vh;
    right: 5vw;
-}
-.btn-custom
-{
+   display: none;
    background-color: $primary-2;
    color: $secondary-3;
 }
-.btn-custom:hover
+.btn-scroll:hover
 {
    background-color: $primary-1;
    color: $secondary-2;
