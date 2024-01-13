@@ -16688,6 +16688,22 @@ footer {
   height: auto;
 }
 
+.btn-to-top {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+}
+
+.btn-custom {
+  background-color: #FBFBFB;
+  color: #304FFE;
+}
+
+.btn-custom:hover {
+  background-color: #E3F2FD;
+  color: #1A237E;
+}
+
 @media only screen and (max-width: 1910px) {
   .main-objectives {
     padding: 3rem;

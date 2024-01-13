@@ -423,6 +423,22 @@ footer
    width: 15rem;
    height: auto;
 }
+.btn-to-top
+{
+   position: fixed;
+   bottom: 5vh;
+   right: 5vw;
+}
+.btn-custom
+{
+   background-color: $primary-2;
+   color: $secondary-3;
+}
+.btn-custom:hover
+{
+   background-color: $primary-1;
+   color: $secondary-2;
+}
 
 // Devices HD+
 @media only screen and (max-width: 1910px)
